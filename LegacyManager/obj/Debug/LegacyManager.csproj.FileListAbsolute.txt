@@ -1,0 +1,10 @@
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\LegacyManager.exe.config
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\LegacyManager.exe
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\LegacyManager.pdb
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.csprojAssemblyReference.cache
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.Properties.Resources.resources
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.csproj.GenerateResource.cache
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.csproj.CoreCompileInputs.cache
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.exe
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.pdb
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.LegacyUI.resources

@@ -1,0 +1,15 @@
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManagerUI.csprojAssemblyReference.cache
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.LegacyUI.resources
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.Properties.Resources.resources
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManagerUI.csproj.GenerateResource.cache
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManagerUI.csproj.CoreCompileInputs.cache
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.exe
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.pdb
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\LegacyManager.exe.config
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\LegacyManager.exe
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\LegacyManager.pdb
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\RabbitMQ.Client.dll
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\RabbitMQ.Client.xml
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManagerUI.csproj.CopyComplete
