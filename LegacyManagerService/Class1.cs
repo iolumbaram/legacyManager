@@ -8,5 +8,14 @@ namespace LegacyManagerService
 {
     public class Class1
     {
+        public void printHello()
+        {
+            Console.WriteLine("helllooo");
+        }
+        //static void Main()
+        //{
+        //    Console.WriteLine("helllooo");
+        //}
+
     }
 }

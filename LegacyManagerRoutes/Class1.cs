@@ -8,5 +8,6 @@ namespace LegacyManagerRoutes
 {
     public class Class1
     {
+
     }
 }

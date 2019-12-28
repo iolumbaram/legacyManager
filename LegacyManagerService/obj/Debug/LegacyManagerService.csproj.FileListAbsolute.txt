@@ -1,0 +1,16 @@
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\obj\Debug\LegacyManagerService.csprojAssemblyReference.cache
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\obj\Debug\LegacyManagerService.csproj.CoreCompileInputs.cache
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\bin\Debug\LegacyManagerService.dll
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\bin\Debug\LegacyManagerService.pdb
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\bin\Debug\RabbitMQ.Client.dll
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\bin\Debug\System.Net.Http.dll
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\bin\Debug\System.Security.Cryptography.Encoding.dll
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\bin\Debug\System.Security.Cryptography.Primitives.dll
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\bin\Debug\RabbitMQ.Client.xml
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\obj\Debug\LegacyManagerService.csproj.CopyComplete
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\obj\Debug\LegacyManagerService.dll
+E:\Work\4_LegacyManager\LegacyManager\LegacyManagerService\obj\Debug\LegacyManagerService.pdb

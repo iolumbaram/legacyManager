@@ -19,7 +19,11 @@ namespace LegacyManager
 
         private void LegacyUI_Load(object sender, EventArgs e)
         {
+            LegacyManagerService.Class1 hello = new LegacyManagerService.Class1();
+            hello.printHello();
 
+            LegacyManagerService.Connections.AMQP.ConnectAMQPBroker amqpIntance = new LegacyManagerService.Connections.AMQP.ConnectAMQPBroker();
+            amqpIntance.Send();
         }
     }
 }

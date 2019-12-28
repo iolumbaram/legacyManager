@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyManagerUI", "LegacyManager\LegacyManagerUI.csproj", "{45B95A67-1B1C-4691-9C05-760741F14545}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyManager", "LegacyManager\LegacyManager.csproj", "{45B95A67-1B1C-4691-9C05-760741F14545}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyManagerService", "LegacyManagerService\LegacyManagerService.csproj", "{6652C7D0-98D6-40B1-A67C-B2BF761C458C}"
 EndProject

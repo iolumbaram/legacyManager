@@ -11,9 +11,9 @@ namespace LegacyManagerService.Connections.REST
     {
         HttpClient client = null;
 
-        public create(HttpClient _client)
-        {
-            client = _client;
-        } 
+        //public create(HttpClient _client)
+        //{
+        //    client = _client;
+        //} 
     }
 }

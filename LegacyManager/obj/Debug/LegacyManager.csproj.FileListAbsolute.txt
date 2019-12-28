@@ -8,3 +8,10 @@ E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.cspr
 E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.exe
 E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.pdb
 E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.LegacyUI.resources
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\LegacyManagerService.dll
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\RabbitMQ.Client.dll
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\LegacyManagerService.pdb
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\bin\Debug\RabbitMQ.Client.xml
+E:\Work\4_LegacyManager\LegacyManager\LegacyManager\obj\Debug\LegacyManager.csproj.CopyComplete
