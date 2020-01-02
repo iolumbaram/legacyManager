@@ -61,7 +61,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Connections\AMQP\Abstractions\IAmqpBrokerConnection.cs" />
+    <Compile Include="Connections\AMQP\Abstractions\IAmqpPublish.cs" />
+    <Compile Include="Connections\AMQP\Abstractions\IEventBus.cs" />
+    <Compile Include="Connections\AMQP\AmqpBrokerConnection.cs" />
+    <Compile Include="Connections\AMQP\AmqpPublish.cs" />
     <Compile Include="Connections\AMQP\Controllers.cs" />
     <Compile Include="Connections\AMQP\ConnectAMQPBroker.cs" />
     <Compile Include="Connections\AMQP\Models\ConstructionSiteMessage.cs" />

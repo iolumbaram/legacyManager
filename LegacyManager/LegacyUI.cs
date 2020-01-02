@@ -23,7 +23,9 @@ namespace LegacyManager
             hello.printHello();
 
             LegacyManagerService.Connections.AMQP.ConnectAMQPBroker amqpIntance = new LegacyManagerService.Connections.AMQP.ConnectAMQPBroker();
-            amqpIntance.Send();
+            
+            //amqpIntance.Send();
+            amqpIntance.ReadFile();
         }
     }
 }
