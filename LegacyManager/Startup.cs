@@ -9,9 +9,10 @@ namespace LegacyManager
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup()
         {
-            Configuration = configuration;
+            //Configuration = configuration;
+            Console.WriteLine("hey yo 123");
         }
         public IConfiguration Configuration { get; }
 
@@ -19,7 +20,7 @@ namespace LegacyManager
         {
             //interfaces for connection builders
             var pathBase = Configuration; // Configuration["PATH_BASE"];
-
+            Console.WriteLine("hey yo");
         }
     }
 }

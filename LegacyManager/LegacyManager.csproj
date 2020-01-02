@@ -94,6 +94,10 @@
       <Project>{6652c7d0-98d6-40b1-a67c-b2bf761c458c}</Project>
       <Name>LegacyManagerService</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Messaging.AMQP\Messaging.AMQP.csproj">
+      <Project>{ab48ced1-1ad3-4589-9dd2-a0bcba4ad3a2}</Project>
+      <Name>Messaging.AMQP</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

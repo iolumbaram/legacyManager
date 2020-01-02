@@ -1,8 +1,10 @@
-﻿using System;
+﻿using LegacyManager.Abstractions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Messaging.AMQP;
 
 namespace LegacyManager
 {
@@ -17,7 +19,16 @@ namespace LegacyManager
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new LegacyUI());
-            //Application.Run(new Startup());
+
+            //var host = new Startup();
+            //host.Configure();
+
+            var AMQPConnecInstance = new Messaging.AMQP.ConnectAMQPBroker.Instance("guest","guest","localhost");
+            //Messaging.AMQP.ConnectAMQPBroker.Instance.AMQPInstance;
+            Console.WriteLine(Messaging.AMQP.ConnectAMQPBroker.Instance.TestInstance);
+
+            //var AMQPPublisher = new Messaging.AMQP.CreatePublisher.Publisher();
+            //AMQPPublisher.CreateQueue("MOM", "simulation").Populate("somedata");
         }
     }
 }
