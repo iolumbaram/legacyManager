@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstractions\IConfiguration.cs" />
     <Compile Include="LegacyUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +61,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
     <EmbeddedResource Include="LegacyUI.resx">
       <DependentUpon>LegacyUI.cs</DependentUpon>
     </EmbeddedResource>

@@ -14,7 +14,6 @@ namespace LegacyManagerService.Connections.AMQP
 
             try
             {
-                u
                 using (var connection = factory.CreateConnection())
                 using (var channel = connection.CreateModel())
                 {

@@ -17,6 +17,7 @@ namespace LegacyManager
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new LegacyUI());
+            //Application.Run(new Startup());
         }
     }
 }
