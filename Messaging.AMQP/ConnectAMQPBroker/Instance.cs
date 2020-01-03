@@ -7,6 +7,11 @@ namespace Messaging.AMQP.ConnectAMQPBroker
 {
     public class Instance
     {
+        //public static Instance getInstance()
+        //{
+        //    return AMQPInstance;
+        //}
+
         public Instance(string userID, string userPasswords, string hostname)
         {
             UserID = userID;
@@ -19,6 +24,7 @@ namespace Messaging.AMQP.ConnectAMQPBroker
                 using (var channel = connection.CreateModel())
                 {
                     AMQPInstance = channel;
+                    System.Diagnostics.Debug.Print("AMQP Instance Created");
                 }
             }
             catch
@@ -37,13 +43,7 @@ namespace Messaging.AMQP.ConnectAMQPBroker
 
         private IConnection ConnectBroker()
         {
-            ConnectionFactory factory = new ConnectionFactory();
-            // "guest"/"guest" by default, limited to localhost connections
-            factory.UserName = UserID;
-            factory.Password = UserPasswords;
-            factory.VirtualHost = "/";
-            factory.HostName = HostName;
-
+            ConnectionFactory factory = new ConnectionFactory() { HostName = "localhost" , UserName = UserID, Password = UserPasswords};
             IConnection conn = factory.CreateConnection();
             return conn;
             //https://www.rabbitmq.com/dotnet-api-guide.html

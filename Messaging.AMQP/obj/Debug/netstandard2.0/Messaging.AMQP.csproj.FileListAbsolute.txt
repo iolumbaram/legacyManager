@@ -1,9 +1,0 @@
-C:\Work\legacyManager\Messaging.AMQP\bin\Debug\netstandard2.0\Messaging.AMQP.deps.json
-C:\Work\legacyManager\Messaging.AMQP\bin\Debug\netstandard2.0\Messaging.AMQP.dll
-C:\Work\legacyManager\Messaging.AMQP\bin\Debug\netstandard2.0\Messaging.AMQP.pdb
-C:\Work\legacyManager\Messaging.AMQP\obj\Debug\netstandard2.0\Messaging.AMQP.csprojResolveAssemblyReference.cache
-C:\Work\legacyManager\Messaging.AMQP\obj\Debug\netstandard2.0\Messaging.AMQP.csproj.CoreCompileInputs.cache
-C:\Work\legacyManager\Messaging.AMQP\obj\Debug\netstandard2.0\Messaging.AMQP.AssemblyInfoInputs.cache
-C:\Work\legacyManager\Messaging.AMQP\obj\Debug\netstandard2.0\Messaging.AMQP.AssemblyInfo.cs
-C:\Work\legacyManager\Messaging.AMQP\obj\Debug\netstandard2.0\Messaging.AMQP.dll
-C:\Work\legacyManager\Messaging.AMQP\obj\Debug\netstandard2.0\Messaging.AMQP.pdb

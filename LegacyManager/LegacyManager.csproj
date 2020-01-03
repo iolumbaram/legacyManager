@@ -95,7 +95,7 @@
       <Name>LegacyManagerService</Name>
     </ProjectReference>
     <ProjectReference Include="..\Messaging.AMQP\Messaging.AMQP.csproj">
-      <Project>{ab48ced1-1ad3-4589-9dd2-a0bcba4ad3a2}</Project>
+      <Project>{fd422f11-b49a-4f00-94b6-3d1598359e99}</Project>
       <Name>Messaging.AMQP</Name>
     </ProjectReference>
   </ItemGroup>

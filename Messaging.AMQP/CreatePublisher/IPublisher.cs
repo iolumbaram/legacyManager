@@ -7,7 +7,7 @@ namespace Messaging.AMQP.CreatePublisher
 {
     public interface IPublisher
     {
-        Publisher CreateQueue(string exchange, string queue);
+        void CreateQueue(string exchange, string queue);
         void Populate(string JSONStringData);
         //destory();
     }

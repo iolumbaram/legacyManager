@@ -1,0 +1,10 @@
+D:\Work\legacyManager\Messaging.AMQP\bin\Debug\Messaging.AMQP.dll
+D:\Work\legacyManager\Messaging.AMQP\bin\Debug\Messaging.AMQP.pdb
+D:\Work\legacyManager\Messaging.AMQP\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\Work\legacyManager\Messaging.AMQP\bin\Debug\RabbitMQ.Client.dll
+D:\Work\legacyManager\Messaging.AMQP\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\Work\legacyManager\Messaging.AMQP\bin\Debug\RabbitMQ.Client.xml
+D:\Work\legacyManager\Messaging.AMQP\obj\Debug\Messaging.AMQP.csproj.CopyComplete
+D:\Work\legacyManager\Messaging.AMQP\obj\Debug\Messaging.AMQP.dll
+D:\Work\legacyManager\Messaging.AMQP\obj\Debug\Messaging.AMQP.pdb
+D:\Work\legacyManager\Messaging.AMQP\obj\Debug\Messaging.AMQP.csprojAssemblyReference.cache

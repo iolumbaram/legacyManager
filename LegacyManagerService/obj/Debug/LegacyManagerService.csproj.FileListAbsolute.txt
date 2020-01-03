@@ -25,7 +25,6 @@ D:\Work\legacyManager\LegacyManagerService\bin\Debug\System.Security.Cryptograph
 D:\Work\legacyManager\LegacyManagerService\bin\Debug\System.Security.Cryptography.X509Certificates.dll
 D:\Work\legacyManager\LegacyManagerService\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
 D:\Work\legacyManager\LegacyManagerService\bin\Debug\RabbitMQ.Client.xml
-D:\Work\legacyManager\LegacyManagerService\obj\Debug\LegacyManagerService.csprojAssemblyReference.cache
 D:\Work\legacyManager\LegacyManagerService\obj\Debug\LegacyManagerService.csproj.CopyComplete
 D:\Work\legacyManager\LegacyManagerService\obj\Debug\LegacyManagerService.dll
 D:\Work\legacyManager\LegacyManagerService\obj\Debug\LegacyManagerService.pdb
