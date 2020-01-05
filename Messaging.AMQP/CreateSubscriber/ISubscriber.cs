@@ -8,5 +8,6 @@ namespace Messaging.AMQP.CreateSubscriber
 {
     public interface ISubscriber
     {
+
     }
 }
