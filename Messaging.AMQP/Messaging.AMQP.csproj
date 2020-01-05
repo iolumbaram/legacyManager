@@ -52,6 +52,8 @@
     <Compile Include="ConnectAMQPBroker\Instance.cs" />
     <Compile Include="CreatePublisher\IPublisher.cs" />
     <Compile Include="CreatePublisher\Publisher.cs" />
+    <Compile Include="CreateSubscriber\ISubscriber.cs" />
+    <Compile Include="CreateSubscriber\Subscriber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

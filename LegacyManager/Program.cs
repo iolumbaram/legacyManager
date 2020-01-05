@@ -20,31 +20,23 @@ namespace LegacyManager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            
+            IModel AMQPInstance = null;
+            ConnectionFactory factory = new ConnectionFactory() { HostName = "localhost", UserName = "guest", Password = "guest" };
+            IConnection conn = factory.CreateConnection();
+            using (var channel = conn.CreateModel())
+            {
+                AMQPInstance = channel;
+                System.Diagnostics.Debug.Print("AMQP Instance Created");
+                var AMQPPublisher = new Messaging.AMQP.CreatePublisher.Publisher();
+                //AMQPPublisher.CreateQueue(AMQPInstance, "MOM", "simulation");
+
+                string message = "Hello World!";
+                AMQPPublisher.CreateQueue(AMQPInstance, "", "hello").Populate(message);
+            }
+
             Application.Run(new LegacyUI());
 
-            //var host = new Startup();
-            //host.Configure();
-
-
-            var AMQPConnecInstance = new Messaging.AMQP.ConnectAMQPBroker.Instance("guest","guest","localhost");
-            //Messaging.AMQP.ConnectAMQPBroker.Instance.AMQPInstance;
-            //Console.WriteLine(Messaging.AMQP.ConnectAMQPBroker.Instance.TestInstance);
-
-
-            //if (Messaging.AMQP.ConnectAMQPBroker.Instance.AMQPInstance != null)
-            //{
-            //    System.Diagnostics.Debug.Print("using the created AMQP Instance");
-            //    //var channel = Messaging.AMQP.ConnectAMQPBroker.Instance.AMQPInstance;
-            //    Messaging.AMQP.ConnectAMQPBroker.Instance.AMQPInstance.QueueDeclare(queue: "helloX", durable: true, exclusive: false, autoDelete: false, arguments: null);
-            //    string message = "Hello World!";
-            //    var body = Encoding.UTF8.GetBytes(message);
-
-            //    Messaging.AMQP.ConnectAMQPBroker.Instance.AMQPInstance.BasicPublish(exchange: "", routingKey: "hello", basicProperties: null, body: body);
-            //    Console.WriteLine(" [x] Sent {0}", message);
-            //}
-
-            //var AMQPPublisher = new Messaging.AMQP.CreatePublisher.Publisher();
-            //AMQPPublisher.CreateQueue("MOM", "simulation");
             Console.ReadLine();
         }
     }

@@ -12,34 +12,53 @@ namespace Messaging.AMQP.ConnectAMQPBroker
         //    return AMQPInstance;
         //}
 
-        public Instance(string userID, string userPasswords, string hostname)
-        {
-            UserID = userID;
-            UserPasswords = userPasswords;
-            HostName = hostname;
+        //public Instance(string userID, string userPasswords, string hostname)
+        //{
+        //    UserID = userID;
+        //    UserPasswords = userPasswords;
+        //    HostName = hostname;
 
-            try
-            {
-                using (var connection = ConnectBroker())
-                using (var channel = connection.CreateModel())
-                {
-                    AMQPInstance = channel;
-                    System.Diagnostics.Debug.Print("AMQP Instance Created");
-                }
-            }
-            catch
-            {
-                Console.WriteLine("[error] AMQP Broker Conneciton Instantiation Failed");
-                TestInstance = "heyyy";
-            }
-        }
+        //    try
+        //    {
+        //        using (var connection = ConnectBroker())
+        //        using (var channel = connection.CreateModel())
+        //        {
+        //            AMQPInstance = channel;
+        //            System.Diagnostics.Debug.Print("AMQP Instance Created");
+        //        }
+        //    }
+        //    catch
+        //    {
+        //        Console.WriteLine("[error] AMQP Broker Conneciton Instantiation Failed");
+        //        TestInstance = "heyyy";
+        //    }
+        //}
 
         private string UserID;
         private string UserPasswords;
         private string HostName;
 
-        public static IModel AMQPInstance = null;
+        //public static IModel AMQPInstance = null;
         public static string TestInstance = "null";
+
+        private static Instance _amqpInstance = null;
+        
+        private Instance()
+        {
+            
+        }
+
+        public static Instance AMQPInstance
+        {
+            get
+            {
+                if (_amqpInstance == null)
+                {
+                    _amqpInstance = new Instance();
+                }
+                return _amqpInstance;
+            }
+        }
 
         private IConnection ConnectBroker()
         {
