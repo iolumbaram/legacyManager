@@ -1,5 +1,0 @@
-D:\Work\legacyManager\LegacyManagerRoutes\bin\Debug\LegacyManagerRoutes.dll
-D:\Work\legacyManager\LegacyManagerRoutes\bin\Debug\LegacyManagerRoutes.pdb
-D:\Work\legacyManager\LegacyManagerRoutes\obj\Debug\LegacyManagerRoutes.csprojAssemblyReference.cache
-D:\Work\legacyManager\LegacyManagerRoutes\obj\Debug\LegacyManagerRoutes.dll
-D:\Work\legacyManager\LegacyManagerRoutes\obj\Debug\LegacyManagerRoutes.pdb
