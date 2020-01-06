@@ -146,3 +146,10 @@ C:\Work\legacyManager\LegacyManager\bin\Debug\Messaging.AMQP.dll
 C:\Work\legacyManager\LegacyManager\bin\Debug\Messaging.AMQP.pdb
 D:\Work\legacyManager\LegacyManager\bin\Debug\Messaging.AMQP.dll
 D:\Work\legacyManager\LegacyManager\bin\Debug\Messaging.AMQP.pdb
+D:\Work\legacyManager\LegacyManager\bin\Debug\Rest.HTTP.dll
+D:\Work\legacyManager\LegacyManager\bin\Debug\Newtonsoft.Json.dll
+D:\Work\legacyManager\LegacyManager\bin\Debug\System.Net.Http.Formatting.dll
+D:\Work\legacyManager\LegacyManager\bin\Debug\Rest.HTTP.pdb
+D:\Work\legacyManager\LegacyManager\bin\Debug\Rest.HTTP.dll.config
+D:\Work\legacyManager\LegacyManager\bin\Debug\Newtonsoft.Json.xml
+D:\Work\legacyManager\LegacyManager\obj\Debug\LegacyManager.exe.config

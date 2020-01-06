@@ -1,0 +1,17 @@
+D:\Work\legacyManager\Rest.HTTP\bin\Debug\Rest.HTTP.dll.config
+D:\Work\legacyManager\Rest.HTTP\bin\Debug\Rest.HTTP.dll
+D:\Work\legacyManager\Rest.HTTP\bin\Debug\Rest.HTTP.pdb
+D:\Work\legacyManager\Rest.HTTP\bin\Debug\Newtonsoft.Json.dll
+D:\Work\legacyManager\Rest.HTTP\bin\Debug\System.Net.Http.dll
+D:\Work\legacyManager\Rest.HTTP\bin\Debug\System.Net.Http.Extensions.dll
+D:\Work\legacyManager\Rest.HTTP\bin\Debug\System.Net.Http.Formatting.dll
+D:\Work\legacyManager\Rest.HTTP\bin\Debug\System.Net.Http.Primitives.dll
+D:\Work\legacyManager\Rest.HTTP\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Work\legacyManager\Rest.HTTP\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Work\legacyManager\Rest.HTTP\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Work\legacyManager\Rest.HTTP\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Work\legacyManager\Rest.HTTP\bin\Debug\Newtonsoft.Json.xml
+D:\Work\legacyManager\Rest.HTTP\obj\Debug\Rest.HTTP.csprojAssemblyReference.cache
+D:\Work\legacyManager\Rest.HTTP\obj\Debug\Rest.HTTP.csproj.CopyComplete
+D:\Work\legacyManager\Rest.HTTP\obj\Debug\Rest.HTTP.dll
+D:\Work\legacyManager\Rest.HTTP\obj\Debug\Rest.HTTP.pdb

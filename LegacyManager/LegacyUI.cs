@@ -24,6 +24,15 @@ namespace LegacyManager
             //amqpIntance.Send();
             //amqpIntance.ReadFile();
 
+            /* 
+             * 1. check if amqp broker is up
+             * 2. if list of required queues are not populated, create them 
+             * 2a. pubs and subs 
+             * 3. Heartbeat listener instance up
+               
+             */
+
+            /* */
             Task.Run(() =>
             {
                 try

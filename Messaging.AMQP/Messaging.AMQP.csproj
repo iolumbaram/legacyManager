@@ -48,13 +48,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="ConnectAMQPBroker\Instance.cs" />
     <Compile Include="CreatePublisher\IPublisher.cs" />
     <Compile Include="CreatePublisher\Publisher.cs" />
     <Compile Include="CreateSubscriber\ISubscriber.cs" />
     <Compile Include="CreateSubscriber\Subscriber.cs" />
+    <Compile Include="Entities\ConstructionSiteMessage.cs" />
+    <Compile Include="Entities\CraneSensorMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\RandomDataGenerator\ConstructionSite.cs" />
+    <Compile Include="Services\RandomDataGenerator\CraneSensor.cs" />
+    <Compile Include="Services\SimulationStateToggler\ConstructionSite.cs" />
+    <Compile Include="Services\SimulationStateToggler\CraneSensor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

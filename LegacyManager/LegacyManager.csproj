@@ -94,6 +94,10 @@
       <Project>{fd422f11-b49a-4f00-94b6-3d1598359e99}</Project>
       <Name>Messaging.AMQP</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Rest.HTTP\Rest.HTTP.csproj">
+      <Project>{1006bca0-d575-4bf2-ae88-ceaee7148f50}</Project>
+      <Name>Rest.HTTP</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
