@@ -59,9 +59,11 @@
     <Compile Include="LegacyUI.Designer.cs">
       <DependentUpon>LegacyUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Overview\ConnectionModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Views\OverviewView\ConnectionPanel.cs" />
     <EmbeddedResource Include="LegacyUI.resx">
       <DependentUpon>LegacyUI.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +100,10 @@
       <Project>{1006bca0-d575-4bf2-ae88-ceaee7148f50}</Project>
       <Name>Rest.HTTP</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\ConnectionsView\" />
+    <Folder Include="Views\StreamsView\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -17,6 +17,17 @@ namespace LegacyManager
         public LegacyUI()
         {
             InitializeComponent();
+            changeText();
+        }
+
+        private void CheckConnectionWithBroker()
+        {
+            //let say done
+            //when done, update UI 
+            Views.OverviewView.ConnectionPanel brokerStatus = new Views.OverviewView.ConnectionPanel();
+            brokerStatus.obj.C2.IsConnected = true;
+            //brokerStatus.IsConnected = true;
+            //brokerStatus.LastCheck = "currenttime";
         }
 
         private void LegacyUI_Load(object sender, EventArgs e)
@@ -62,6 +73,17 @@ namespace LegacyManager
                 }
 
             });
+        }
+
+        /* UI Binding Codes */
+        public void changeText()
+        {
+            lblOverviewURAPubStatus.Text = ":?????????";
+        }
+
+        private void UpdateUI()
+        {
+
         }
     }
 }

@@ -1,0 +1,5 @@
+Manager will not look for clients; but clients will register for a manager
+
+A class takes on one responsiility
+cotain changes
+reusability
